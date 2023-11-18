@@ -1,0 +1,475 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.header{
+background-color:#ED5AB3;
+}
+
+h1{
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: whitesmoke;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+.navbar a{
+    color:black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a  :hover{
+    background-color: pink;
+}
+.navbar li{
+    float: left;
+
+}
+.logo{
+    height: 60px;
+    width: 60px;
+}
+.Box-1 h1{
+    text-align: center;
+    padding: 25px 0px;
+
+}
+
+.con-1{
+    width: 1170px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-around;
+}
+.text-1{
+    flex-basis: 50%;
+    box-shadow: 0px 0px 10px 3px white;
+    background-color: white;
+    margin: 10px 0px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.text-1 p{
+    font-size: 30px;
+    padding: 10px;
+}
+.text-1 button{
+    background-color: blue;
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.Box-2 h1{
+    text-align: center;
+    padding: 25px 0px;
+
+}
+.con-2{
+    width: 1170px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-around;
+}
+.text-2{
+    background-color: rgb(145, 250, 145);
+}
+.text-side{
+    background-color: skyblue;
+}
+.text-2 p{
+    font-size: 30px;
+    padding: 10px;
+}
+.text-2 button{
+    background-color: blue;
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.text-side p{
+    font-size: 30px;
+    padding: 10px;
+}
+.text-side button{
+    background-color: blue;
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.con-3{
+    width: 1170px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-around;
+}
+.text-3{
+    flex-basis: 50%;
+    box-shadow: 0px 0px 10px 3px white;
+    background-color: white;
+    margin: 10px 0px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.text-3 ul{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.con-4{
+    width: 1170px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-around;
+}
+.text-4{
+    flex-basis: 50%;
+    box-shadow: 0px 0px 10px 3px white;
+    background-color: white;
+    margin: 10px 0px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.text-4 ul{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.Box-5 h1{
+    text-align: center;
+    padding: 25px 0px;
+    background-color: rgb(244, 244, 122);
+}
+
+.con-5{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(244, 244, 122);
+}
+.c-1{
+    flex-basis: 50%;
+    box-shadow: 0px 0px 10px 3px white;
+    background-color: white;
+    margin: 10px 0px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.c-1 p{
+    font-size: 30px;
+    padding: 10px;
+}
+.c-2{
+    flex-basis: 50%;
+    box-shadow: 0px 0px 10px 3px white;
+    background-color: white;
+    margin: 10px 0px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.c-2 p{
+    font-size: 30px;
+    padding: 10px;
+}
+.c-3{
+    flex-basis: 50%;
+    box-shadow: 0px 0px 10px 3px white;
+    background-color: white;
+    margin: 10px 0px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.c-3 p{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.Box-6 h1{
+    text-align: center;
+    padding: 25px 0px;
+
+}
+
+.con-6{
+    width: 1170px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-around;
+}
+.text-5{
+    flex-basis: 50%;
+    box-shadow: 0px 0px 10px 3px white;
+    background-color: white;
+    margin: 10px 0px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.text-5 p{
+    font-size: 30px;
+    padding: 10px;
+}
+.text-5 button{
+    background-color:white;
+    padding: 10px 25px;
+    color: blue;
+    border-radius: 10px;
+}
+#p-1{
+    color: blue;
+}
+
+.Box-7 h1{
+    text-align: center;
+    padding: 25px 0px;
+
+}
+.con-7{
+    width: 1170;
+    margin: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Box-item{
+    flex-basis: 23%;
+    box-shadow: 0px 0px 10px 3px lightgrey;
+    background: white;
+    margin: 10px 0px;
+    text-align: center;
+    padding: 20px 0px ;
+}
+
+.Box-item h3{
+    padding: 10px 0px;
+}
+.Box-item p{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.Box-8 h1{
+    text-align: center;
+    padding: 25px 0px;
+
+}
+.con-8{
+    width: 1170;
+    margin: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Box-item2{
+    flex-basis: 23%;
+    box-shadow: 0px 0px 10px 3px lightgrey;
+    background: white;
+    margin: 10px 0px;
+    text-align: center;
+    padding: 20px 0px ;
+}
+
+.Box-item2 h3{
+    padding: 10px 0px;
+}
+.Box-item2 p{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.Box-9 h1{
+    text-align: center;
+    padding: 25px 0px;
+
+}
+.con-9{
+    width: 1170;
+    margin: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Box-item3{
+    flex-basis: 23%;
+    box-shadow: 0px 0px 10px 3px white;
+    background: white;
+    margin: 10px 0px;
+    text-align: center;
+    padding: 20px 0px ;
+}
+
+.Box-item3 h3{
+    padding: 10px 0px;
+}
+
+.Box-10 h1{
+    text-align: center;
+    padding: 25px 0px;
+
+}
+.con-10{
+    width: 1170;
+    margin: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Box-item4 button{
+    background-color:white;
+    padding: 10px 25px;
+    color: blue;
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    padding: 4rem;
+    gap: 6%;
+}
+.footer div div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 15px;
+}
+.footer div div li{
+    list-style: none;
+}
+.imgbag{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-content: space-between; */
+}
+.imgbag .menti{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: baseline;
+}
+.imgbag div{
+    margin-top: 0 !important;
+}
+.imgbag .menti img{
+    width: 7%;
+    height: 7%;
+}
+hr{
+    background-color:black;
+    height: 1px;
+    margin-top: 2px;
+}
+div.logo-face {
+    margin-top: 50% !important;
+}
+.logo-face img{
+    width: 20%;
+    margin: 0 auto;
+}
+.line{
+    width: 19%;
+    margin: 0 auto;margin-top: -14px;
+}
+.ul ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: -10px;
+}
+.ul ul li i{
+    font-size: 36px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #FF80AB;
+    gap: 10px;
+}
+.header-para{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.header-input{
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color:#1640D6 ;
+    color: #fff;
+    border: none;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.cross{
+    font-size: 46px;
+    border: none;
+    background: none;
+    margin-left: 1471%;
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#images{
+    width: 100px;
+    height: 100px;
+}
+
+#image{
+    width: 500px;
+    height: 500px;
+}
+#bag-1{
+    width: 300px;
+    height: 300px;
+}
